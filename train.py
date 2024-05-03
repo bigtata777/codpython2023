@@ -4,7 +4,7 @@ import random
 
 numeros =[random.random() for _ in range(3000)]
 funcion1 = lambda x:  (np.sqrt(x) + np.sin(x**2)) + (125*x**2 + 2*x  + 0.9*x + 5)/(np.cos(x*3)+100*x + x**5) - np.cos(np.pi*x)
-funcion2 = lambda x: 120*np.sqrt((x**4- 0.8*x**3 - x)/(120*x**2))
+funcion2 = lambda x: 200*np.sqrt((x**4- 0.8*x**3 - x)/(120*x**2))
 output1 = []
 output2 = []
 
