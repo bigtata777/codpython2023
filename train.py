@@ -17,3 +17,12 @@ for i in numeros:
 print(output1)
 print(output2)
 print(output3)
+
+import numpy as np
+def funcion(x):
+    
+    y = 1/(1- np.exp(-x))
+    
+    return y
+probas  = [funcion(i)  for i in np.linspace(-1,2)]
+print(probas)
